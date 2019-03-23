@@ -3,7 +3,7 @@ class Hash
     thingum = []
     
     arguments.each do |x|
-      self.each do |item,val|
+      x.each do |item,val|
         if val == x
           thingum << item
         end
